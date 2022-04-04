@@ -1,26 +1,31 @@
 import React from 'react';
 import { Container,  Nav, Navbar} from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import './Header.css'
+import logo from '../../images/nav-logo.webp';
 
 
 const Header = () => {
     return (
         <div >
-           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+           <Navbar collapseOnSelect expand="lg"  variant="dark">
   <Container>
   <Navbar.Brand href="#home">
-      <h2>Logo</h2>
+     
+      <img src={logo} alt="" />
       </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
     </Nav>
-    <Nav >
-      <Nav.Link href="/about">About</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
-    </Nav>
+    <Nav className='header'>
+     <NavLink className={({ isActive }) => (isActive ? "active-link": "header")} to="/Home">HOME</NavLink>
+      <NavLink className={({ isActive }) => (isActive ? "active-link": "header")} to="/reviews">REVIEWS</NavLink>
+      <NavLink className={({ isActive }) => (isActive ? "active-link": "header")} to="/dashboard">DASHBOARD</NavLink>
+      <NavLink className={({ isActive }) => (isActive ? "active-link": "header")} to="/blogs">BLOGS</NavLink>
+      <NavLink className={({ isActive }) => (isActive ? "active-link": "header")} to="/about">ABOUT</NavLink>
+      
+     </Nav>
   </Navbar.Collapse>
   </Container>
 </Navbar>
