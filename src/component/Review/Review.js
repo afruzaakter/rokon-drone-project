@@ -9,12 +9,14 @@ const Review = (props) => {
     //   console.log(props.review);
       
     return (
-        <div className='container customer-review'>
-        
+        <div className='container mt-5 mb-5'>
+        <h1>Customer <span className='text-color'>Reviews(3)</span> </h1>
+        <div className='customer-review '>
         {
             reviews.map(review => <CustomerReview review = {review}
             ></CustomerReview>)
         }
+        </div>
        
         </div>
     );

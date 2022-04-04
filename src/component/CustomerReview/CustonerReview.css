@@ -9,3 +9,16 @@
    border-radius: 70px 0px ;
    /* width: 400px; */
 }
+
+@media screen and(max-width: 767px){
+    .review{
+        height: 250px;
+        background-color: rgb(239, 132, 205);
+        padding: 15px;
+        border-radius: 70px 0px ;
+        /* width: 400px; */
+     } 
+     .review p{
+         width: 100%;
+     }
+}

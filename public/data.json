@@ -4,28 +4,28 @@
       "name": "marcoguada",
       "rating": "⭐⭐⭐⭐⭐5",
       "img": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/57479471afb8f333dbb1bcae581e05f7-1646259098010/6da52445-33fe-499c-833d-99aaa6cf53c5.jpg",
-      "review:": " Satisfied by their professionalism !  Didn't have to pay any delivery charge. I can't believe that. "
+      "review": " Satisfied by their professionalism !  Didn't have to pay any delivery charge. I can't believe that. "
     },
     {
       "id": 1002,
       "name": "Shipon Hasan",
       "rating": "⭐⭐⭐⭐4",
       "img": "https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2972/Default/stores/chaldal/components/landingPage2/CarouselFeedbacks/images/lp_feedback_srabon_hasan.png?q=low&webp=1&alpha=1",
-      "review:": "Satisfied by their professionalism ! They are also happy with the service."
+      "review": "Satisfied by their professionalism ! They are also happy with the service."
     },
     {
       "id": 1003,
       "name": "Shampa Shahriyar",
       "rating": "⭐⭐⭐⭐⭐5",
       "img": "https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2972/Default/stores/chaldal/components/landingPage2/CarouselFeedbacks/images/lp_feedback_shampa_shahriyar.png?q=low&webp=1&alpha=1",
-      "review:": " Thanks a lot for that. Loved the service!"
+      "review": " Thanks a lot for that. Loved the service!"
     },
     {
       "id": 1004,
       "name": "Mala Mafiya",
       "rating": "⭐⭐⭐⭐4",
       "img": "https://chaldn.com/asset/Egg.Grocery.Fabric/Egg.Grocery.Web/1.5.0+DataCenter-Release-2972/Default/stores/chaldal/components/landingPage2/CarouselFeedbacks/images/lp_feedback_ashfia_ahmed.png?q=low&webp=1&alpha=1",
-      "review:": "Loved the service! I urgently needed some stuffs and ordered it here and they delivered in less than an hour as promised! Thanks a lot for that."
+      "review": "I urgently needed some stuffs and ordered it here and they delivered in less than an hour as promised!"
     },
     {
       "id": 1005,
@@ -37,8 +37,12 @@
     {
       "id": 1006,
       "name": "Cabreland",
-      "price": "⭐⭐⭐⭐⭐5",
+      "rating": "⭐⭐⭐⭐⭐5",
       "img": "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/c0867434fd4a53b1e2ce7c8e4dc957c0-1624654543283/d3278c20-d7a7-4477-9f4b-1f690a8193ac.jpg ",
-      "review:": "They are also happy with the service. The prices are comparatively low and the products are genuine."
+     
+      "review": " The prices are comparatively low and the products are genuine."
     } 
   ]
+
+
+  

@@ -14,7 +14,7 @@ const CustomerReview = (props) => {
                 <h4>{rating}</h4>
                </div>
                 <div>
-                <p className='w-75'>{review}</p>
+                <p className='w-75 ms-5 text-center'>{review}</p>
                 </div>
               </div>
                </div>
