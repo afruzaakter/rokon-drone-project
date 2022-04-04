@@ -41,6 +41,7 @@ const Home = () => {
          {
              reviews.map(review =><Review review={review}></Review>)
          }
+         
      </div>
 
             <button className='btn btn-primary'>See All Reviews </button>
