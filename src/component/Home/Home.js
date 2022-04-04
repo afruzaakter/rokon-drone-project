@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import bg from '../../images/DJI-Phantom-3-drone-1188x792-1-removebg-preview.png'
-import Review from '../Review/Review';
+
 
 import './Home.css'
 const Home = () => {
-    const [reviews, setReviews] = useState([])
-    // console.log(reviews);
-    useEffect(() => {
-     fetch('data.json')
-     .then(res => res.json())
-     .then(data => setReviews(data))
-    },[])
-
     return (
         <div className='container'>
             
@@ -37,12 +29,7 @@ const Home = () => {
             <h1>Customer <span className='text-color'>Reviews(3)</span> </h1>
 
 
-            <div>
-         {
-             reviews.map(review =><Review review={review}></Review>)
-         }
-         
-     </div>
+        
 
             <button className='btn btn-primary'>See All Reviews </button>
       </div>

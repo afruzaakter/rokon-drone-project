@@ -1,0 +1,11 @@
+.customer-img{
+    width: 80px;
+   
+}
+.review{
+   height: 250px;
+   background-color: rgb(239, 132, 205);
+   padding: 15px;
+   border-radius: 70px 0px ;
+   /* width: 400px; */
+}

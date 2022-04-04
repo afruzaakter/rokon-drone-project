@@ -22,7 +22,7 @@ function App() {
       <Route path='/dashboard' element={<MyLineChart></MyLineChart>}></Route>
       <Route path='/blogs'element={<Blogs></Blogs>}></Route>
 
-      <Route path='/notfound'element={<NotFound></NotFound>}></Route>
+      <Route path='*'element={<NotFound></NotFound>}></Route>
 
    </Routes>
   

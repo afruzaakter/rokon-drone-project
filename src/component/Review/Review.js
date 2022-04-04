@@ -1,19 +1,21 @@
 import React from 'react';
+import useReview from '../../hooks/useReview';
+import CustomerReview from '../CustomerReview/CustomerReview';
+import './Review.css'
 
 const Review = (props) => {
-      console.log(props.review);
-      const {name,img,rating,review} = props.review
+    const [reviews, setReviews] = useReview();
+    //  console.log(object);
+    //   console.log(props.review);
+      
     return (
-        <div>
-           <div className='card'>
-           
-           <img className='w-25' src={img} alt="" />
-           <h3 className='text-start'>{name}</h3>
-           <h4 className='text-start'>{rating}</h4>
-           <h6 className='w-50 h-50'>{review}</h6>
-           </div>
-
-
+        <div className='container customer-review'>
+        
+        {
+            reviews.map(review => <CustomerReview review = {review}
+            ></CustomerReview>)
+        }
+       
         </div>
     );
 };
