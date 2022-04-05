@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://vermillion-twilight-4e2690.netlify.app/).
 
 ## Project Description:
-. At first work  react project create and components create
-. React Router install and code  setup.
-. React fontawesome , react bootstrap, rechart install, and   setup. 
+. At first work  react project create and components create.\
+. React Router install and code  setup.\
+. React fontawesome , react bootstrap, rechart install, and   setup. \
 . app.js Router setup, Header design, Home page design, blogs page,Customer Review page , design etc.
 
 
