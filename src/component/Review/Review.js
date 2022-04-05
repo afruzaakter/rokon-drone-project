@@ -3,7 +3,7 @@ import useReview from '../../hooks/useReview';
 import CustomerReview from '../CustomerReview/CustomerReview';
 import './Review.css'
 
-const Review = (props) => {
+const Review = () => {
     const [reviews, setReviews] = useReview();
     //  console.log(object);
     //   console.log(props.review);
@@ -13,9 +13,11 @@ const Review = (props) => {
         <h1>Customer <span className='text-color'>Reviews(3)</span> </h1>
         <div className='customer-review '>
         {
-            reviews.map(review => <CustomerReview review = {review}
+            reviews.map(review => <CustomerReview key ={review.id} review = {review}
             ></CustomerReview>)
         }
+
+       
         </div>
        
         </div>
