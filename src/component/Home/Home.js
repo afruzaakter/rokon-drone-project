@@ -17,7 +17,7 @@ const Home = () => {
                  <h1 className='text-start mt-5'>Rokon Camera Drone <span className='text-color'>Accessories</span> </h1>
                  <p className='w-75 1h-1'>Rokon is a Single eCommerce drone Product.It’s a great place to start if you want to make a website for your drone store, electronics store, watches store, headphone store, earphone store, or jewelry store.</p>
                  <div className='align-items-start d-flex '>
-                     <button className='btn btn-primary w-25 review-btn'>Read More</button>
+                     <button className='btn btn-primary w-25 review-btn mb-4'>Read More</button>
                  </div>
                 </div>
                 <div className='done-style col-md-6 col-sm-12  '>
@@ -33,7 +33,7 @@ const Home = () => {
             <h1>Customer <span className='text-color'>Reviews(3)</span> </h1>
 
             <div className='mb-5'>
-             { reviews.slice(0,3).map(review =><CustomerReview review={review}>
+             { reviews.slice(0,3).map(review =><CustomerReview key={review.id} review={review}>
 
              </CustomerReview> )
              }
