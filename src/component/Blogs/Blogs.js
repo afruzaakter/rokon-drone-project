@@ -1,38 +1,32 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import bg1 from '../../images/DJI-Phantom-3-drone-1188x792-1-removebg-preview.png'
+import './Blogs.css'
 const Blogs = () => {
     return (
-        <div className='container'>
-            <h1>this is blogs</h1>
-            <div className='row mt-5 mb-5 '>
-               <div className='col-md-10 col-lg-6 '>
-                     <img src={bg1}alt="" />
-               </div>
-               <div className='col-md-12 col-lg-6 '>
+        <div className='container  blogs mb-5 '>
+            <h1 className='mt-5 p-3 '>Question & Answer</h1>
+            <div className='row mt-5'>
+               <div className='col-md-12 col-lg-12 blogs mb-5'>
                <Accordion>
-                <Accordion.Item eventKey="0">
-                    <Accordion.Header>Accordion Item #1</Accordion.Header>
+                   <Accordion.Item eventKey="0">
+                    <Accordion.Header>Q. What is context api?</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    The Context API can be used to share data with multiple components, create global variables,alternative to passing props manually in a component tree,  without having to pass data through props manually.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
-                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Header>Q. What is semantic tags?</Accordion.Header>
                     <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                   HTML5 semantic tags define the purpose of the element. By using semantic markup, you help the browser understand the meaning of the content instead of just displaying it .HTML5 semantic elements also help search engines to read the page and find the required information faster . Exam: header ,div,main,article,footer etc.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header>Q. Difference between inline and block elements?</Accordion.Header>
+                    <Accordion.Body>
+                    Inline elements don’t start from a new line and don’t have top and bottom margins as block elements have. 
+                    Examples of Inline elements: img, a, input, label etc
+                    Block Element:Block Element always start in a new line and have top and bottom margins. It does not contain any other elements next to it.
+                    Examples of Block elements: div, h1-h6, p, ul, li etc
                     </Accordion.Body>
                 </Accordion.Item>
                 </Accordion>

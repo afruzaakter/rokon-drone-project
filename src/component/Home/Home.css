@@ -5,6 +5,7 @@
 }
 .bg-image{
     position: relative;
+    margin-left: -30px;
 }
 .text-color{
     color: rgb(241, 82, 191);
