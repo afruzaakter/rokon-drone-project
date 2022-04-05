@@ -2,14 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://vermillion-twilight-4e2690.netlify.app/).
 
-## Available Scripts
+## Project Description:
+. At first work  react project create and components create
+. React Router install and code  setup.
+. React fontawesome , react bootstrap, rechart install, and   setup. 
+. app.js Router setup, Header design, Home page design, blogs page,Customer Review page , design etc.
 
-In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [https://vermillion-twilight-4e2690.netlify.app/]() to view it in your browser.
+Project Live Link:  [https://vermillion-twilight-4e2690.netlify.app/]() to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
