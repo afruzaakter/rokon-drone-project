@@ -10,13 +10,13 @@ const About = () => {
             <h1 className='mb-4'> Product Gallery</h1>
             <div className='row '>
                 <div className='col-md-4 mb-3'>
-                <img src={bg} alt="" />
-                </div>
-                <div className='col-md-4 mb-3'> 
-                <img src={bg1} alt="" />
+                    <img src={bg} alt="" />
                 </div>
                 <div className='col-md-4 mb-3'>
-                <img src={bg2} alt="" />
+                    <img src={bg1} alt="" />
+                </div>
+                <div className='col-md-4 mb-3'>
+                    <img src={bg2} alt="" />
                 </div>
             </div>
             <div className='row'>
